@@ -1,0 +1,19 @@
+.form {
+    margin-left: 20px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form>label {
+    display: flex;
+    flex-direction: column;
+}
+
+.form fieldset {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
