@@ -16,3 +16,155 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+#datetime-picker {
+  width: 272px;
+  height: 40px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-right: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#datetime-picker:hover {
+  border-radius: 4px;
+}
+
+button[data-start] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button[data-start]:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+  cursor: not-allowed;
+}
+
+button[data-start]:hover {
+  background-color: #6c8cff;
+}
+
+button[data-start]:disabled:hover {
+  background-color: #cfcfcf;
+  color: #989898;
+  cursor: not-allowed;
+}
+
+.form {
+  padding: 36px 156px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.delay-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.delay-input {
+  min-width: 360px;
+  height: 40px;
+}
+
+fieldset {
+  width: 360px;
+  height: 78px;
+
+  background: #fff;
+  border: 1px solid #666;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 24px 48px 8px;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 24px;
+}
+
+legend {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.subBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.subBtn:hover {
+  background: #6c8cff;
+}
